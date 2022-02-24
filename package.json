@@ -1,6 +1,6 @@
 {
   "name": "libly",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "bin": "bin/index.js",
   "description": "Easy To Create NPM Package.",
   "main": "bin/index.js",

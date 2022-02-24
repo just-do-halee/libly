@@ -44,11 +44,14 @@ fse.copy(
       );
     }, 400); // spinner
 
-    exec('npm i', () => {
-      clearInterval(tid);
-      process.stderr.write(`\r \x1b[1m  success!\x1b[0m     \n`);
+    exec(
+      'npm install && git init',
+      errCallback(() => {
+        clearInterval(tid);
+        process.stderr.write(`\r \x1b[1m  success!\x1b[0m     \n`);
 
-      process.stderr.write('\u001B[?25h'); // show cursor
-    });
+        process.stderr.write('\u001B[?25h'); // show cursor
+      })
+    );
   })
 );
