@@ -1,43 +1,53 @@
-# **_`____`_**
+# **_`NEW-LIB`_**
 
-_._
+_Easy To Create NPM Package._
+
+<br>
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 [![License][license-image]][license-url]
 [[changelog]](CHANGELOG.md)
 
----
-
-```js
-npm install ____
-```
-
-```js
-yarn add ____
+```bash
+npm install -g new-lib  # or yarn global add
 ```
 
 ---
 
-## **_`Examples`_**
+## **_`How to`_**
 
-```typescript
-import { ____ } from '____';
+```bash
+npx new-lib PROJECT_NAME
 ```
 
-#### _._
-
-```typescript
-import { ____ } from '____';
+```bash
+npx new-lib PROJECT_NAME PATH
 ```
 
-## **License**<br>
+---
+
+## **_`Example`_**
+
+```bash
+npx new-lib myProject
+
+# installing...
+
+# success!
+
+cd myProject
+```
+
+---
+
+## **_`License`_**
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/____.svg
-[npm-url]: https://npmjs.org/package/____
-[downloads-image]: https://img.shields.io/npm/dm/____.svg
-[downloads-url]: https://npmcharts.com/compare/____?minimal=true
+[npm-image]: https://img.shields.io/npm/v/new-lib.svg
+[npm-url]: https://npmjs.org/package/new-lib
+[downloads-image]: https://img.shields.io/npm/dm/new-lib.svg
+[downloads-url]: https://npmcharts.com/compare/new-lib?minimal=true
 [license-url]: https://opensource.org/licenses/MIT
-[license-image]: https://img.shields.io/npm/l/____
+[license-image]: https://img.shields.io/npm/l/new-lib
