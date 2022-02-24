@@ -1,8 +1,8 @@
 {
-  "name": "new-lib",
+  "name": "libly",
   "version": "0.1.0",
   "bin": "bin/index.js",
-  "description": "easy to create NPM package.",
+  "description": "Easy To Create NPM Package.",
   "main": "bin/index.js",
   "files": [
     "bin",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/just-do-halee/new-lib.git"
+    "url": "git+https://github.com/just-do-halee/libly.git"
   },
   "keywords": [
     "library",
@@ -20,14 +20,15 @@
     "cli",
     "easy",
     "package",
-    "lib"
+    "lib",
+    "helper"
   ],
   "author": "just-do-halee <just.do.halee@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/just-do-halee/new-lib/issues"
+    "url": "https://github.com/just-do-halee/libly/issues"
   },
-  "homepage": "https://github.com/just-do-halee/new-lib#readme",
+  "homepage": "https://github.com/just-do-halee/libly#readme",
   "dependencies": {
     "fs-extra": "^10.0.1"
   }
