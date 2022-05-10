@@ -1,12 +1,13 @@
 {
   "name": "libly",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "bin": "bin/index.js",
   "description": "Easy To Create NPM Package.",
   "main": "bin/index.js",
   "files": [
     "bin",
-    "template",
+    "template/**/*",
+    "template/*",
     "CHANGELOG.md",
     "README.md"
   ],
